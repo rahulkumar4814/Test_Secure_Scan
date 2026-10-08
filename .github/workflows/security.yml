@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run SecureScan
-        uses: YOUR_USERNAME/Secure_Scanner@main
+        uses: rahulkumar4814/Secure_Scanner@main
         with:
           target: "."
           fail-on: high
